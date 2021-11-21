@@ -30,29 +30,10 @@ import numpy as np
 warnings.filterwarnings('ignore')
 st.set_page_config(page_title='TheSeer',layout='wide',initial_sidebar_state='auto')
 
-st.cache(allow_output_mutation=True)
-def load_model_qa():
-    model_qa = BertForQuestionAnswering.from_pretrained('bert-large-uncased-whole-word-masking-finetuned-squad')
-    return model_qa
-model_qa = load_model_qa()
-
-st.cache(allow_output_mutation=True)
-def load_tok_qa():
-    tokenizer_qa = BertTokenizer.from_pretrained('./models/mytokenzierqa')
-    return tokenizer_qa
-tokenizer_qa = load_tok_qa()
-
-st.cache(allow_output_mutation=True)
-def load_sent():
-    model_sent = AutoModelForSequenceClassification.from_pretrained('nlptown/bert-base-multilingual-uncased-sentiment')
-    return model_sent
-model_sent = load_sent()
-
-st.cache(allow_output_mutation=True)
-def load_sent_tok():
-    tokenizer_sent = AutoTokenizer.from_pretrained('./models/autotokensent')
-    return tokenizer_sent
-tokenizer_sent = load_sent_tok()
+model_qa = BertForQuestionAnswering.from_pretrained('bert-large-uncased-whole-word-masking-finetuned-squad')
+tokenizer_qa = BertTokenizer.from_pretrained('./models/mytokenzierqa')
+model_sent = AutoModelForSequenceClassification.from_pretrained('nlptown/bert-base-multilingual-uncased-sentiment')
+tokenizer_sent = AutoTokenizer.from_pretrained('./models/autotokensent')
 
 #navigation bar 
 category = ("About TheSeer","Employment OutLook DashBoard","TheSeer QA System","What about me?🤔","Sentiment Analysis",)
