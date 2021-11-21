@@ -30,10 +30,10 @@ import numpy as np
 warnings.filterwarnings('ignore')
 st.set_page_config(page_title='TheSeer',layout='wide',initial_sidebar_state='auto')
 
-# model_qa = BertForQuestionAnswering.from_pretrained('bert-large-uncased-whole-word-masking-finetuned-squad')
-# tokenizer_qa = BertTokenizer.from_pretrained('./models/mytokenzierqa')
-# model_sent = AutoModelForSequenceClassification.from_pretrained('nlptown/bert-base-multilingual-uncased-sentiment')
-# tokenizer_sent = AutoTokenizer.from_pretrained('./models/autotokensent')
+model_qa = BertForQuestionAnswering.from_pretrained('bert-large-uncased-whole-word-masking-finetuned-squad')
+tokenizer_qa = BertTokenizer.from_pretrained('bert-large-uncased-whole-word-masking-finetuned-squad')
+model_sent = AutoModelForSequenceClassification.from_pretrained('nlptown/bert-base-multilingual-uncased-sentiment')
+tokenizer_sent = AutoTokenizer.from_pretrained('nlptown/bert-base-multilingual-uncased-sentiment')
 
 #navigation bar 
 category = ("About TheSeer","Employment OutLook DashBoard","TheSeer QA System","What about me?🤔","Sentiment Analysis",)
