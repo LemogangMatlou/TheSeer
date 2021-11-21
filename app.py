@@ -39,28 +39,28 @@ st.set_page_config(page_title='TheSeer',layout='wide',initial_sidebar_state='aut
 category = ("About TheSeer","Employment OutLook DashBoard","TheSeer QA System","What about me?🤔","Sentiment Analysis",)
 navigation = st.sidebar.selectbox("Please Choose:", category)
 
-# if navigation == "About TheSeer":
-#     st.header("Welcome To TheSeer")
-#     st.image("datasets/OIP.jfif")
-#     st.markdown('''
-#     Data science is one of the most valuable tools one can use to change the world in terms of the 4IR.
-#     But how can we use data science in the future of work in the 4IR🤔? During the covid 19 period many people 
-#     lost their jobs, many businesses were closed, were not profitable and productive, it was really challenging.
+if navigation == "About TheSeer":
+    st.header("Welcome To TheSeer")
+    st.image("datasets/OIP.jfif")
+    st.markdown('''
+    Data science is one of the most valuable tools one can use to change the world in terms of the 4IR.
+    But how can we use data science in the future of work in the 4IR🤔? During the covid 19 period many people 
+    lost their jobs, many businesses were closed, were not profitable and productive, it was really challenging.
 
-#     But with data science we can help businesses to make good decisions when it comes to customer service, 
-#     forecasting their finances, like their expenses and income statements and become profitable
+    But with data science we can help businesses to make good decisions when it comes to customer service, 
+    forecasting their finances, like their expenses and income statements and become profitable
 
-#     Data science can also help people to help people to choose a better career that will be applicable
-#     for the 4IR, like through chatbots and a survey that uses machine learning in the background to recommend you a suitable carrer
-#     for the 4IR.
-#     ''')
+    Data science can also help people to help people to choose a better career that will be applicable
+    for the 4IR, like through chatbots and a survey that uses machine learning in the background to recommend you a suitable carrer
+    for the 4IR.
+    ''')
 
-#     st.subheader("With this web you can use:")
-#     st.write("1.Time Series Forecasting : For Forecasting Analysis")
-#     st.write("2.Question Answering System : For asnwering any questions related to the future of work in the 4IR")
-#     st.write("3.Questionnaires : Will my skills and my experiences be beneficial for the 4IR? || Do i have what is required for me to be employed?")
-#     st.write("4.Sentiment Analysis : Sentiment Analysis on the impact of the 4IR on employment")
-#     st.write("5.Dashboard : Outlook of jobs by industry in SA per province as well as forecasts on employed people per industry")
+    st.subheader("With this web you can use:")
+    st.write("1.Time Series Forecasting : For Forecasting Analysis")
+    st.write("2.Question Answering System : For asnwering any questions related to the future of work in the 4IR")
+    st.write("3.Questionnaires : Will my skills and my experiences be beneficial for the 4IR? || Do i have what is required for me to be employed?")
+    st.write("4.Sentiment Analysis : Sentiment Analysis on the impact of the 4IR on employment")
+    st.write("5.Dashboard : Outlook of jobs by industry in SA per province as well as forecasts on employed people per industry")
 
 # elif navigation == "TheSeer QA System":
 #     st.subheader("TheSeer QA System")
