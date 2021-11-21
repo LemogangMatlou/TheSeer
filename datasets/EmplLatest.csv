@@ -1,0 +1,73 @@
+﻿Date,Province,Industry,Number of People
+30-03-2021,WesternCape,Agriculture,136
+30-03-2021,WesternCape,Mining,8
+30-03-2021,WesternCape,Manufacturing,311
+30-03-2021,WesternCape,Construction,179
+30-03-2021,WesternCape,Trade,447
+30-03-2021,WesternCape,Transport,128
+30-03-2021,WesternCape,Finance,483
+30-03-2021,WesternCape,Community and social services,492
+30-03-2021,EasternCape,Agriculture,101
+30-03-2021,EasternCape,Mining,1
+30-03-2021,EasternCape,Manufacturing,108
+30-03-2021,EasternCape,Construction,120
+30-03-2021,EasternCape,Trade,244
+30-03-2021,EasternCape,Transport,81
+30-03-2021,EasternCape,Finance,157
+30-03-2021,EasternCape,Community and social services,365
+30-03-2021,Gauteng,Agriculture,43
+30-03-2021,Gauteng,Mining,61
+30-03-2021,Gautent,Manufacturing,510
+30-03-2021,Gauteng,Construction,315
+30-03-2021,Gauteng,Trade,909
+30-03-2021,Gauteng,Transport,333
+30-03-2021,Gauteng,Finance,1 063
+30-03-2021,Gauteng,Community and social services,957
+30-03-2021,NorthenCape,Agriculture,39
+30-03-2021,NorthenCape,Mining,28
+30-03-2021,NorthenCape,Manufacturing,20
+30-03-2021,NorthenCape,Construction,11
+30-03-2021,NorthenCape,Trade,40
+30-03-2021,NorthenCape,Transport,9
+30-03-2021,NorthenCape,Finance,31
+30-03-2021,NorthenCape,Community and social services,119
+30-03-2021,KZN,Agriculture,130
+30-03-2021,KZN,Mining,2
+30-03-2021,KZN,Manufacturing,277
+30-03-2021,KZN,Construction,184
+30-03-2021,KZN,Trade,543
+30-03-2021,KZN,Transport,168
+30-03-2021,KZN,Finance,355
+30-03-2021,KZN,Community and social services,577
+30-03-2021,NorthWest,Agriculture,40
+30-03-2021,NorthWest,Mining,123
+30-03-2021,NorthWest,Manufacturing,72
+30-03-2021,NorthWest,Construction,64
+30-03-2021,NorthWest,Trade,175
+30-03-2021,NorthWest,Transport,30
+30-03-2021,NorthWest,Finance,96
+30-03-2021,NorthWest,Community and social services,265
+30-03-2021,Limpopo,Agriculture,136
+30-03-2021,Limpopo,Mining,95
+30-03-2021,Limpopo,Manufacturing,69
+30-03-2021,Limpopo,Construction,96
+30-03-2021,Limpopo,Trade,227
+30-03-2021,Limpopo,Transport,70
+30-03-2021,Limpopo,Finance,119
+30-03-2021,Limpopo,Community and social services,352
+30-03-2021,Mpumalanga,Agriculture,113
+30-03-2021,Mpumalanga,Mining,62
+30-03-2021,Mpumalanga,Manufacturing,82
+30-03-2021,Mpumalanga,Construction,80
+30-03-2021,Mpumalanga,Trade,235
+30-03-2021,Mpumalanga,Transport,48
+30-03-2021,Mpumalanga,Finance,152
+30-03-2021,Mpumalanga,Community and social services,251
+30-03-2021,FreeState,Agriculture,55
+30-03-2021,FreeState,Mining,16
+30-03-2021,FreeState,Manufacturing,48
+30-03-2021,FreeState,Construction,30
+30-03-2021,FreeState,Trade,159
+30-03-2021,FreeState,Transport,35
+30-03-2021,FreeState,Finance,72
+30-03-2022,FreeState,Community and social services,190
