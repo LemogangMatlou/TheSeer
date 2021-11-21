@@ -32,7 +32,7 @@ st.set_page_config(page_title='TheSeer',layout='wide',initial_sidebar_state='aut
 
 st.cache(allow_output_mutation=True)
 def load_model_qa():
-    model_qa = BertForQuestionAnswering.from_pretrained('./models/mybertqa')
+    model_qa = BertForQuestionAnswering.from_pretrained('bert-large-uncased-whole-word-masking-finetuned-squad')
     return model_qa
 model_qa = load_model_qa()
 
@@ -44,7 +44,7 @@ tokenizer_qa = load_tok_qa()
 
 st.cache(allow_output_mutation=True)
 def load_sent():
-    model_sent = AutoModelForSequenceClassification.from_pretrained('./models/automlsent')
+    model_sent = AutoModelForSequenceClassification.from_pretrained('nlptown/bert-base-multilingual-uncased-sentiment')
     return model_sent
 model_sent = load_sent()
 
